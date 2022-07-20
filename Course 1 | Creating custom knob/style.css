@@ -1,30 +1,34 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .knob-container {
-    width: 80px;
-    height: 40px;
-    background: black;
-    border-radius: 40px;
+  width: 80px;
+  height: 40px;
+  background: black;
+  border-radius: 40px;
 }
 
 .switched-on {
-    text-align: -webkit-right;
+  background-color: #4facfe !important;
+  box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 8px #4facfe, 0 0 10px #4facfe,
+    0 0 20px #4facfe, 0 0 30px #4facfe, 0 0 40px #4facfe;
+  transform: translate(40px, 0);
 }
 
 .circle {
-    background-color: #4facfe;
-    width: 40px;
-    height: 40px;
-    border-radius: 48%;
-    cursor: pointer;
+  background-color: #4facfe;
+  width: 40px;
+  height: 40px;
+  border-radius: 48%;
+  cursor: pointer;
+  transition: 0.5s;
 }
