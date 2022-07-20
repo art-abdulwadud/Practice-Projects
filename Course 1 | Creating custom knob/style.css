@@ -11,7 +11,20 @@ main {
 }
 
 .knob-container {
-    width: 50px;
+    width: 80px;
     height: 40px;
     background: black;
+    border-radius: 40px;
+}
+
+.switched-on {
+    text-align: -webkit-right;
+}
+
+.circle {
+    background-color: #4facfe;
+    width: 40px;
+    height: 40px;
+    border-radius: 48%;
+    cursor: pointer;
 }
