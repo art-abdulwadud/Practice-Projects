@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,28 @@
     <title>Custom Input</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
-        <div class="input-container">
-            <label for="name">Name</label>
-            <input type="text" id="name" />
+        <div class="inputs-container">
+            <div class="single-input-container">
+                <label for="name">Name</label>
+                <input type="text" id="name" autocomplete="off" />
+            </div>
+            <div class="single-input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" autocomplete="off" />
+            </div>
+            <div class="single-input-container">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" autocomplete="off" />
+            </div>
+            <div class="single-input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" autocomplete="off" />
+            </div>
         </div>
     </main>
 </body>
+
 </html>

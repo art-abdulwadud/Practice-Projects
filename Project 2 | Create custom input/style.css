@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.inputs-container {
+    /* Glass background */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    min-width: 300px;
+    position: relative;
+}
+
+.single-input-container {
+    position: relative;
+    min-width: 290px;
+    margin: 2rem 0;
+}
+
+.single-input-container label {
+    position: absolute;
+    font-size: 1.6em;
+    z-index: 1;
+}
+
+.single-input-container input {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 99%;
+    font-size: 1.4em;
+    box-shadow: none;
+    outline: none;
+    z-index: 2;
+}
