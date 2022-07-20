@@ -17,13 +17,6 @@ main {
   border-radius: 40px;
 }
 
-.switched-on {
-  background-color: #4facfe !important;
-  box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 8px #4facfe, 0 0 10px #4facfe,
-    0 0 20px #4facfe, 0 0 30px #4facfe, 0 0 40px #4facfe;
-  transform: translate(40px, 0);
-}
-
 .circle {
   background-color: #4facfe;
   width: 40px;
@@ -32,3 +25,12 @@ main {
   cursor: pointer;
   transition: 0.5s;
 }
+
+.switched-on {
+    background-color: #4facfe !important;
+    /* Move the cirlce to the right */
+    transform: translate(40px, 0);
+    /* Make the circle glow */
+    box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 8px #4facfe, 0 0 10px #4facfe,
+      0 0 20px #4facfe, 0 0 30px #4facfe, 0 0 40px #4facfe;
+  }
