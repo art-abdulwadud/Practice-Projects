@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Custom Video Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
     <main>
         <div class="video-container">
-            <video loop controls autoplay>
-                <source src="./cgi-video.mp4" type="video/mp4">
+            <video loop autoplay>
+                <source src="./1.mp4" type="video/mp4">
             </video>
+            <div class="play-button">
+                <i class="fa fa-play cursor"></i>
+                <i class="fa fa-pause cursor"></i>
+            </div>
+            <div class="reaction-btns"></div>
+            <div class="video-info"></div>
         </div>
     </main>
 </body>

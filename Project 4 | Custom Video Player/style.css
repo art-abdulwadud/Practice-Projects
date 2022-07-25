@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    position: relative;
+}
+
+.video-container {
+    position: relative;
+    height: 80vh;
+    width: 300px;
+}
+
+.video-container video, .video-container video source {
+    height: 80vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.play-button {
+    position: absolute;
+    z-index: 2;
+    min-height: 80vh;
+    width: 300px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: white;
+}
+
+.cursor {
+    cursor: pointer;
+}
