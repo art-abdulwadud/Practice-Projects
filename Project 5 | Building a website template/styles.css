@@ -1,0 +1,78 @@
+:root {
+    --bs-primary-rgb: 116, 58, 213 !important;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Color */
+.text-primary, .hover\:text-primary:hover {
+    color: #743ad5 !important;
+}
+
+.bg-primary, .hover\:bg-primary:hover {
+    background: #743ad5 !important;
+}
+
+.bg-white, .hover\:bg-white:hover {
+    background: white !important;
+}
+
+/* Intro Header */
+.intro-header {
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url(./assets/images/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: "Montserrat", sans-serif;
+}
+
+.intro-header-body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+.intro-header-body h1 {
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.intro-header-body p {
+    font-weight: 400;
+    font-size: 1em;
+    max-width: 700px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.intro-header-body div button {
+    background: rgba(0,0,0,.5);
+    border: 2px solid #743ad5;
+    color: white;
+    border-radius: 40px;
+    padding: 1rem 1.8rem;
+    transition: .4s;
+    min-width: 146px;
+}
+
+/* .intro-header-body div button:hover {
+    background: #743ad5;
+} */
