@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="intro-header">
+    <header class="intro-header w-100">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -29,9 +29,6 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -48,14 +45,20 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Introduction -->
-        <div class="intro-header-body">
+        <div class="intro-header-body w-100 h-100">
             <h1 class="display-1">My Bootstrap <br> Website Template</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolores natus sunt molestias mollitia pariatur nulla eos itaque sapiente ipsam. Voluptate veritatis blanditiis, nam iusto neque nesciunt corporis velit omnis dicta expedita reiciendis ipsa sequi libero magni, esse voluptatum suscipit vero modi animi saepe. Facere quisquam deleniti ipsa tenetur nemo!</p>
             <div class="d-flex gap-2">
@@ -64,6 +67,33 @@
             </div>
         </div>
     </header>
+    <section class="event-countdown-wrapper bg-black text-white w-100">
+        <span><strong>DON'T WAIT</strong></span>
+        <h1 class="display-1">Event Countdown</h1>
+        <div class="deadline"></div> <br>
+        <div class="event-countdown">
+            <div class="days">
+                <span class="count">0</span>
+                <span class="count">0</span>
+            </div>
+            <div class="count-separator">:</div>
+            <div class="hours">
+                <span class="count">0</span>
+                <span class="count">0</span>
+            </div>
+            <div class="count-separator">:</div>
+            <div class="mins">
+                <span class="count">0</span>
+                <span class="count">0</span>
+            </div>
+            <div class="count-separator">:</div>
+            <div class="seconds">
+                <span class="count">0</span>
+                <span class="count">0</span>
+            </div>
+        </div>
+        <button type="button" class="btn bg-primary hover:bg-white hover:text-primary my-5 py-3 px-4 text-white border-round">Get Started</button>
+    </section>
     <script src="./assets/js/eventListerners.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

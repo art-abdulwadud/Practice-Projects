@@ -13,7 +13,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-/* Color */
+/* Colors */
 .text-primary, .hover\:text-primary:hover {
     color: #743ad5 !important;
 }
@@ -26,22 +26,30 @@ body {
     background: white !important;
 }
 
+.bg-black, .hover\:bg-black:hover {
+    background: black !important;
+}
+
+/* Borders */
+.border-round {
+    border-radius: 40px !important;
+}
+
 /* Intro Header */
 .intro-header {
     background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url(./assets/images/hero.jpg);
     background-size: cover;
     height: 100vh;
-    width: 100%;
 }
 
 .nav-link {
+    font-size: .9em !important;
+    margin-right: 1rem;
     color: white !important;
     font-family: "Montserrat", sans-serif;
 }
 
 .intro-header-body {
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,3 +84,41 @@ body {
 /* .intro-header-body div button:hover {
     background: #743ad5;
 } */
+
+/* Event Countdown */
+.event-countdown-wrapper {
+    min-height: 40vh;
+    text-align: center;
+}
+
+.event-countdown-wrapper h1 {
+    font-weight: bold;
+}
+
+.event-countdown {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.event-countdown div {
+    display: flex;
+}
+
+.count {
+    font-size: 2em;
+    border: 2px solid #743ad5;
+    margin-right: 5px;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    min-width: 70px;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.count-separator {
+    font-size: 3em;
+    margin-right: 5px;
+}
