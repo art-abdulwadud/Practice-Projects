@@ -103,15 +103,16 @@ body {
 
 .event-countdown div {
     display: flex;
+    align-items: center;
 }
 
 .count {
     font-size: 2em;
     border: 2px solid #743ad5;
     margin-right: 5px;
-    padding: .5rem 1rem;
+    padding: .2rem .9rem;
     border-radius: 20px;
-    min-width: 70px;
+    min-width: 60px;
 }
 
 .border-none {
@@ -119,6 +120,6 @@ body {
 }
 
 .count-separator {
-    font-size: 3em;
+    font-size: 2em;
     margin-right: 5px;
 }
